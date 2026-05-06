@@ -112,6 +112,13 @@ nav a:hover {
     text-align: center;
 }
 
+section {
+background-color: #d8f3dc;
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+}
+
 form {
     display: flex;
     flex-direction: column;
