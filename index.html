@@ -1,15 +1,83 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
-<title>EcoTech - Tecnologia Sustentável</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header>
-<h1>Bem-vindo ao EcoTech </h1>
-<p>Projetos de tecnologia e sustentabilidade.</p>
-<button>Saiba Mais</button>
+    <div class="container">
+        <h1>EcoTech</h1>
+        <nav>
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
 </header>
+
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Tecnologia Sustentável para o Futuro</h2>
+        <p>Unimos inovação e responsabilidade ambiental para transformar negócios.</p>
+        <a href="#contato" class="btn">Fale Conosco</a>
+    </div>
+</section>
+
+<section id="sobre" class="sobre">
+    <div class="container">
+        <h2>Sobre a EcoTech</h2>
+        <p>
+            A EcoTech é uma empresa focada em soluções tecnológicas sustentáveis.
+            Nosso objetivo é ajudar empresas a crescerem utilizando práticas ecológicas
+            e inovação digital.
+        </p>
+    </div>
+</section>
+
+<section id="servicos" class="servicos">
+    <div class="container">
+        <h2>Nossos Serviços</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Consultoria Ambiental</h3>
+                <p>Estratégias para reduzir impactos ambientais.</p>
+            </div>
+
+            <div class="card">
+                <h3>Desenvolvimento de Sistemas</h3>
+                <p>Soluções digitais eficientes e sustentáveis.</p>
+            </div>
+
+            <div class="card">
+                <h3>Automação Inteligente</h3>
+                <p>Otimização de processos com menor consumo de recursos.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="contato">
+    <div class="container">
+        <h2>Contato</h2>
+
+        <form>
+            <input type="text" placeholder="Seu nome" required>
+            <input type="email" placeholder="Seu email" required>
+            <textarea placeholder="Sua mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 EcoTech - Todos os direitos reservados</p>
+</footer>
+
 </body>
 </html>
